@@ -12,17 +12,6 @@ body {
     color: #333;
 }
 
-h1 {
-    font-family: "Monsieur La Doulaise", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem; /* You can adjust the size as needed */
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 20px;
-}      
-
-
 .container {
     width: 80%;
     margin: 0 auto;
@@ -35,9 +24,14 @@ header {
     padding: 1rem 0;
 }
 
-header h1 {
+h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: #ffffff;
     text-align: center;
-    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
 nav ul {

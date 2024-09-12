@@ -17,6 +17,154 @@ body {
     margin: 0 auto;
 }
 
+/* Header Styles */
+header {
+    background-color:#fff;
+    color: #570303;
+    padding: 1rem 0;
+}
+
+h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: #570303;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #570303;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Hero image section */
+.hero {
+    background: url('header.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #570303;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(127, 8, 8);
+}
+
+/* Catalogue Section */
+#catalogue {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#catalogue h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.category {
+    margin-bottom: 3rem;
+}
+
+.category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.outfits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.outfit {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.outfit img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.outfit p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* grid formatting */
+.content-section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    margin: 15px;
+}
+
+.item img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
 
 /* Newsletter Form Styles */
 #newsletter {
@@ -71,122 +219,7 @@ body {
 }
 
 .newsletter-form input[type="submit"]:hover {
-    background-color: #333;
-}
-
-
-/* Header Styles */
-header {
-    background-color:#fff;
-    color: #570303;
-    padding: 1rem 0;
-}
-
-h1 {
-    font-family: "Monsieur La Doulaise", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
-    color: #570303;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 1rem 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #570303;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-/* Home section */
-.hero {
-    background: url('header.jpg') no-repeat center center/cover;
-    height: 60vh;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.hero-content h2 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #570303;
-    color: #fff;
-    border: none;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
     background-color: rgb(127, 8, 8);
-}
-
-/* Catalogue Section */
-#catalogue {
-    padding: 2rem 0;
-}
-
-#catalogue h2 {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.category {
-    margin-bottom: 3rem;
-}
-
-.category h3 {
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-
-.outfits {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.outfit {
-    width: 30%;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.outfit img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.outfit p {
-    margin-top: 0.5rem;
-    font-size: 1rem;
 }
 
 /* Footer Styles */

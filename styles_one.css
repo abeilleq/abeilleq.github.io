@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem; /* You can adjust the size as needed */
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}      
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #570303;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Intro Section */
+#intro {
+    background: #eee;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Catalogue Section */
+#catalogue {
+    padding: 2rem 0;
+}
+
+#catalogue h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.category {
+    margin-bottom: 3rem;
+}
+
+.category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.outfits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.outfit {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.outfit img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.outfit p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
